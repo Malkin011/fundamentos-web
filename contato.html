@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -18,33 +19,35 @@
         </li>
     </ul>
 
-    <h1>Entre em contato comigo!</h1>
+    <h1 class="center">Entre em contato comigo!</h1>
 
-    <form>
-        <label for="nome"> Nome: </label> <br>
-        <input type="text" id="nome">
+    <div class="container">
 
-        <br>
-        <br>
-
-        <label for="email"> Email: </label> <br>
-        <input type="text" id="email">
-
-        <br>
-        <br>
-
-        <label for="assunto"> Assunto: </label> <br>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-
-        <br>
-        <br>
-
-        <button>Enviar</button>
-
-        <br>
-        <br>
-
-        <h2>Endereço</h2>
+        <div>
+            <form>
+                <label for="nome"> Nome: </label> <br>
+                <input type="text" id="nome">
+        
+                <br>
+                <br>
+        
+                <label for="email"> Email: </label> <br>
+                <input type="text" id="email">
+        
+                <br>
+                <br>
+        
+                <label for="assunto"> Assunto: </label> <br>
+                <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+        
+                <br>
+                <br>
+        
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="ml-50">
+            <h2>Endereço</h2>
         <p>Rua Mario Ioshida, 36 </p>
         <p>Mogi das Cruzes - SP </p>
 
@@ -55,7 +58,25 @@
         allowfullscreen="" 
         loading="lazy">
         </iframe>
-    </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class = "container">
+             <a href="https://www.linkedin.com/in/malcolm-silva-653606149/" target="_blank">
+                 <img class="tm-social p-30" src="Assets/img/linkedin.png" alt="LinkedinLogo">
+             </a>
+ 
+            <a href="https://www.instagram.com/malkin_011/" target="_blank">
+             <img class="tm-social p-30" src="Assets/img/Instagram preto.png" alt="InstagramLogo">
+            </a>
+            
+        </div>
+        <p class="center">
+         Todos os direitos reservados: Malcolm Silva &copy;
+        </p>
+    </footer>
+        
 
 
 </body>
